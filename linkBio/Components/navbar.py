@@ -7,7 +7,7 @@ from linkBio.styles.colors import Color as Color
 
 def navbar() -> rx.Component:
     return rx.hstack(
-        rx.spinner(color="white", size="md"),
+        #rx.spinner(color="white", size="md"),
         rx.box(
             rx.span("Saez",color=Color.PRIMARY.value ),
             rx.span("MD",color=Color.SECONDARY.value, font_weight= "bold" ),
